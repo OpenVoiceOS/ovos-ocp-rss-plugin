@@ -1,7 +1,7 @@
 import feedparser
 
 from ovos_plugin_manager.templates.ocp import OCPStreamExtractor
-from ovos_utils.log import LOG
+from ovos_plugin_manager.utils import classproperty
 
 
 class OCPRSSFeedExtractor(OCPStreamExtractor):
@@ -9,7 +9,7 @@ class OCPRSSFeedExtractor(OCPStreamExtractor):
         super().__init__(ocp_settings)
         self.settings = self.ocp_settings.get("rss", {})
 
-    @property
+    @classproperty
     def supported_seis(self):
         """
         skills may return results requesting a specific extractor to be used
