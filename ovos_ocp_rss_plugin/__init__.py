@@ -1,8 +1,5 @@
-import enum
-import json
 import feedparser
 
-import requests
 from ovos_plugin_manager.templates.ocp import OCPStreamExtractor
 from ovos_utils.log import LOG
 
@@ -17,7 +14,8 @@ class OCPRSSFeedExtractor(OCPStreamExtractor):
         """ return the real uri that can be played by OCP """
         return self.get_rss_first_stream(uri)
 
-    def get_rss_first_stream(self, feed_url):
+    @staticmethod
+    def get_rss_first_stream(feed_url):
         try:
             # extract_streams RSS or XML feed
             data = feedparser.parse(feed_url.strip())
