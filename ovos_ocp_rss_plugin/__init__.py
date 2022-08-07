@@ -1,0 +1,35 @@
+import enum
+import json
+import feedparser
+
+import requests
+from ovos_plugin_manager.templates.ocp import OCPStreamExtractor
+from ovos_utils.log import LOG
+
+
+class OCPRSSFeedExtractor(OCPStreamExtractor):
+
+    def validate_uri(self, uri):
+        """ return True if uri can be handled by this extractor, False otherwise"""
+        return uri.startswith("rss//")
+
+    def extract_stream(self, uri):
+        """ return the real uri that can be played by OCP """
+        return self.get_rss_first_stream(uri)
+
+    def get_rss_first_stream(self, feed_url):
+        try:
+            # extract_streams RSS or XML feed
+            data = feedparser.parse(feed_url.strip())
+            # After the intro, find and start the news uri
+            # select the first link to an audio file
+
+            for meta in data['entries'][0]['links']:
+                if 'audio' in meta['type']:
+                    # TODO return duration for proper display in UI
+                    duration = meta.get('length')
+                    meta["uri"] = link['href']
+                    return meta
+        except Exception as e:
+            pass
+        return {}
