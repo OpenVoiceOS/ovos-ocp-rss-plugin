@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/HEAD)
+## [V0.0.1a2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.1a2) (2023-01-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/5f376eec108ff96aee6262e2cac3cb7e53ef113d...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/5f376eec108ff96aee6262e2cac3cb7e53ef113d...V0.0.1a2)
 
 **Merged pull requests:**
 
