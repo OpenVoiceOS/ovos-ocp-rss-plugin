@@ -1,5 +1,9 @@
 # Changelog
 
+## [V0.0.2a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.2a1) (2023-02-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.1...V0.0.2a1)
+
 ## [V0.0.1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.1) (2023-01-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.1a2...V0.0.1)
