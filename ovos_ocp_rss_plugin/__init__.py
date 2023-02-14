@@ -26,6 +26,8 @@ class OCPRSSFeedExtractor(OCPStreamExtractor):
     @staticmethod
     def get_rss_first_stream(feed_url):
         try:
+            if feed_url.startswith("rss//"):
+                feed_url = feed_url[5:]
             # extract_streams RSS or XML feed
             data = feedparser.parse(feed_url.strip())
             # After the intro, find and start the news uri
@@ -33,10 +35,15 @@ class OCPRSSFeedExtractor(OCPStreamExtractor):
 
             for meta in data['entries'][0]['links']:
                 if 'audio' in meta['type']:
-                    # TODO return duration for proper display in UI
                     duration = meta.get('length')
-                    meta["uri"] = meta['href']
-                    return meta
+                    return {"duration": duration,
+                            "uri": meta['href']}
         except Exception as e:
             pass
         return {}
+
+
+if __name__ == "__main__":
+    print(OCPRSSFeedExtractor.get_rss_first_stream("rss//https://www.cbc.ca/podcasting/includes/hourlynews.xml"))
+    print(OCPRSSFeedExtractor.get_rss_first_stream("rss//https://podcasts.files.bbci.co.uk/p02nq0gn.rss"))
+    print(OCPRSSFeedExtractor.get_rss_first_stream("rss//https://www.pbs.org/newshour/feeds/rss/podcasts/show"))
