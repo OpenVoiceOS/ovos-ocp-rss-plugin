@@ -35,7 +35,7 @@ class OCPRSSFeedExtractor(OCPStreamExtractor):
                 if 'audio' in meta['type']:
                     # TODO return duration for proper display in UI
                     duration = meta.get('length')
-                    meta["uri"] = link['href']
+                    meta["uri"] = meta['href']
                     return meta
         except Exception as e:
             pass
