@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.2...HEAD)
+
+**Merged pull requests:**
+
+- fix/dependencies [\#2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/2) ([NeonJarbas](https://github.com/NeonJarbas))
+
+## [V0.0.2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.2) (2023-02-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.2a2...V0.0.2)
+
 ## [V0.0.2a2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.2a2) (2023-02-14)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.2a1...V0.0.2a2)
