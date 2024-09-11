@@ -18,7 +18,6 @@ CONFIG_ENTRY_POINT = f'{PLUGIN_NAME}.config = {PLUGIN_PKG}:{PLUGIN_CONFIGS}'
 
 def get_version():
     """ Find the version of the package"""
-    version = None
     version_file = os.path.join(BASEDIR, PLUGIN_PKG, 'version.py')
     major, minor, build, alpha = (None, None, None, None)
     with open(version_file) as f:
