@@ -1,24 +1,20 @@
 # Changelog
 
-## [V0.0.2a2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.2a2) (2023-02-14)
+## [0.0.3a2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.0.3a2) (2024-09-11)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.2a1...V0.0.2a2)
-
-## [V0.0.2a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.2a1) (2023-02-14)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.1...V0.0.2a1)
-
-## [V0.0.1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.1) (2023-01-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.1a2...V0.0.1)
-
-## [V0.0.1a2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.1a2) (2023-01-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/5f376eec108ff96aee6262e2cac3cb7e53ef113d...V0.0.1a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.3a1...0.0.3a2)
 
 **Merged pull requests:**
 
-- Add Github and Version automation [\#1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/1) ([NeonDaniel](https://github.com/NeonDaniel))
+- feat:semver [\#3](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/3) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.0.3a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/V0.0.3a1) (2024-01-12)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/V0.0.2...V0.0.3a1)
+
+**Merged pull requests:**
+
+- fix/dependencies [\#2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/2) ([NeonJarbas](https://github.com/NeonJarbas))
 
 
 
