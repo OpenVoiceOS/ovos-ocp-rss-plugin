@@ -1,5 +1,6 @@
-import feedparser
+from time import mktime
 
+import feedparser
 from ovos_plugin_manager.templates.ocp import OCPStreamExtractor
 
 
@@ -32,11 +33,15 @@ class OCPRSSFeedExtractor(OCPStreamExtractor):
             data = feedparser.parse(feed_url.strip())
             # After the intro, find and start the news uri
             # select the first link to an audio file
+            title = data['entries'][0].get('title')
+            date = data['entries'][0].get('published_parsed')
 
             for meta in data['entries'][0]['links']:
                 if 'audio' in meta['type']:
                     duration = meta.get('length')
                     return {"duration": duration,
+                            "title": title,
+                            "timestamp": mktime(date) if date else 0,
                             "uri": meta['href']}
         except Exception as e:
             pass
