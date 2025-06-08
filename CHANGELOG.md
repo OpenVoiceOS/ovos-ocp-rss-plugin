@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.0a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.0a1) (2025-04-02)
+## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.1a1) (2025-06-08)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.0.3...0.1.0a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.0...0.1.1a1)
 
 **Merged pull requests:**
 
-- feat: more metadata [\#5](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/5) ([JarbasAl](https://github.com/JarbasAl))
+- fix: compatibility with ovos-plugin-manager 1.X.X [\#7](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/7) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
