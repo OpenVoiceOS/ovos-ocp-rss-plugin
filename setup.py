@@ -60,7 +60,7 @@ def required(requirements_file):
 
 
 setup(
-    name=PLUGIN_NAME,
+    name=PLUGIN_NAME.replace("-", "_"),
     version=get_version(),
     description='OCP rss feed stream extractor plugin',
     url=f'https://github.com/OpenVoiceOS/{PLUGIN_NAME}',
