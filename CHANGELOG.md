@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.2a1) (2025-11-05)
+## [0.1.3a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a1) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.1...0.1.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.2...0.1.3a1)
 
 **Merged pull requests:**
 
-- Update ovos-plugin-manager version range [\#9](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/9) ([JarbasAl](https://github.com/JarbasAl))
+- chore: Configure Renovate [\#11](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
