@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a3](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a2...0.1.3a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update actions/checkout action to v6 [\#17](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.1.3a2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a2) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a1...0.1.3a2)
