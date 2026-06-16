@@ -23,9 +23,6 @@ Homepage = "https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin"
 [project.entry-points."opm.ocp.extractor"]
 "ovos-ocp-rss-plugin" = "ovos_ocp_rss_plugin:OCPRSSFeedExtractor"
 
-[project.entry-points."opm.ocp.extractor.config"]
-"ovos-ocp-rss-plugin.config" = "ovos_ocp_rss_plugin:OCPRSSFeedExtractorConfig"
-
 [tool.setuptools.dynamic]
 version = {attr = "ovos_ocp_rss_plugin.version.__version__"}
 
