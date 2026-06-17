@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a4](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a4) (2026-06-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a3...0.1.3a4)
+
+**Merged pull requests:**
+
+- chore: add missing shared CI workflows [\#20](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/20) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.3a3](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a3) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a2...0.1.3a3)
