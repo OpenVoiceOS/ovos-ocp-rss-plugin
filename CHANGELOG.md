@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a5](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a5) (2026-06-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a4...0.1.3a5)
+
+**Merged pull requests:**
+
+- chore: add tests [\#22](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/22) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.3a4](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a4) (2026-06-17)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a3...0.1.3a4)
