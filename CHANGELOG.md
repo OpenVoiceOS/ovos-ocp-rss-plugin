@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a6](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a6) (2026-07-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a5...0.1.3a6)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#24](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/24) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.3a5](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a5) (2026-06-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a4...0.1.3a5)
