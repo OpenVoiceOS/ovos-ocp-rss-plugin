@@ -1,12 +1,52 @@
 # Changelog
 
-## [0.1.2a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.2a1) (2025-11-05)
+## [0.1.3a6](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a6) (2026-07-31)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.1...0.1.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a5...0.1.3a6)
 
 **Merged pull requests:**
 
-- Update ovos-plugin-manager version range [\#9](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/9) ([JarbasAl](https://github.com/JarbasAl))
+- docs: rewrite README in Simplified Technical English [\#24](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/24) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.3a5](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a5) (2026-06-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a4...0.1.3a5)
+
+**Merged pull requests:**
+
+- chore: add tests [\#22](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/22) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.3a4](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a4) (2026-06-17)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a3...0.1.3a4)
+
+**Merged pull requests:**
+
+- chore: add missing shared CI workflows [\#20](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/20) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.3a3](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a2...0.1.3a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update actions/checkout action to v6 [\#17](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.3a2](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a2) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a1...0.1.3a2)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#12](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.3a1](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a1) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.2...0.1.3a1)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#11](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
