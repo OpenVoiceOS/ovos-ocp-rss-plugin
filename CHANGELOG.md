@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3a7](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a7) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a6...0.1.3a7)
+
+**Merged pull requests:**
+
+- ci: add a build test that runs the suite [\#26](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/pull/26) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.1.3a6](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/tree/0.1.3a6) (2026-07-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-rss-plugin/compare/0.1.3a5...0.1.3a6)
